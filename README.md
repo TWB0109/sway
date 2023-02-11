@@ -6,10 +6,13 @@ This configuration is meant to be used with my main dotfiles in
 [TWB0109/dotifles](https://github.com/TWB0109/dotfiles.git)
 
 # Screenshots
-![](./pix/busyTiledDark.png)
-![](./pix/busyTiledLight.png)
-![](./pix/busyFloatingDark.png.png)
-![](./pix/busyFloatingLight.png.png)
+![](./media/busyTiledDark.png)
+![](./media/busyTiledLight.png)
+![](./media/busyFloatingDark.png.png)
+![](./media/busyFloatingLight.png.png)
+
+# Video Demonstration
+![demo](./media/demo.mp4)
 
 # Dependencies
 
