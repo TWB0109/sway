@@ -5,6 +5,12 @@ My bloated Gruvbox swaywm configuration
 This configuration is meant to be used with my main dotfiles in 
 [TWB0109/dotifles](https://github.com/TWB0109/dotfiles.git)
 
+# Screenshots
+![](./pix/busyTiledDark.png)
+![](./pix/busyTiledLight.png)
+![](./pix/busyFloatingDark.png.png)
+![](./pix/busyFloatingLight.png.png)
+
 # Dependencies
 
 - [stow](https://www.gnu.org/software/stow/)
