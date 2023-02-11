@@ -12,7 +12,7 @@ This configuration is meant to be used with my main dotfiles in
 ![](./media/busyFloatingLight.png.png)
 
 # Demonstration
-![](./media/demo.gif)
+[![](https://img.youtube.com/vi/fHJud-NsmrU/0.jpg)](https://www.youtube.com/watch?v=fHJud-NsmrU)
 
 # Dependencies
 
