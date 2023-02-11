@@ -39,7 +39,7 @@ There are two ways of doing it:
 ```bash
 git clone https://github.com/TWB0109/dotfiles ~/dotfiles
 cd ~/dotfiles
-stow x # X meaning any folder in the repo that you'd like to install as your config, please back up your configs first.
+stow sway # X meaning any folder in the repo that you'd like to install as your config, please back up your configs first.
 ```
 2. Cloning just the sway setup:
 ```bash
