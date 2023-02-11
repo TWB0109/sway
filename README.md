@@ -28,7 +28,7 @@ This configuration is meant to be used with my main dotfiles in
 
 # Usage/Installation
 
-To install this configuration, the main tool is GNU Stow, please make
+To install this configuration, the main tool we'll use is GNU Stow, please make
 sure it's installed and look up the name of the package in your distribution of
 choice
 
