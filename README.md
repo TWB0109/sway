@@ -12,7 +12,8 @@ This configuration is meant to be used with my main dotfiles in
 ![](./media/busyFloatingLight.png.png)
 
 # Video Demonstration
-![demo](./media/demo.mp4)
+<video src="./media/demo.mp4" controls="controls" style="max-width: 730px;">
+</video>
 
 # Dependencies
 
