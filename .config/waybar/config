@@ -13,7 +13,7 @@
     },
     "tray": {
         "icon-size": 21,
-        "spacing": 10,
+        "spacing": 10
     },
     "mpris": {
         "format":        "{player_icon}:      {status_icon}   <b>{artist} | {title}</b>",
@@ -30,7 +30,7 @@
     },
     "sway/language": {
         "format": "{short} {variant}",
-        "on-click": "swaymsg input type:keyboard xkb_switch_layout next",
+        "on-click": "swaymsg input type:keyboard xkb_switch_layout next"
     },
     "clock": {
         "format": " {:%a, %b %d, %Y | %R}",
