@@ -59,6 +59,7 @@ for_window [class="Spotify"] inhibit_idle open
 input type:keyboard {
     xkb_layout us,latam
     xkb_options grp:ctrl_space_toggle,caps:swapescape
+    # xkb_options caps:swapescape
 }
 
 #
@@ -306,7 +307,8 @@ client.unfocused #f2e5bc #f2e5bc #79740e #427b58
 #
 
 exec wlsunset -S 05:30 -s 17:40
-exec ~/.local/bin/swww init
-exec ~/.local/bin/swww img ~/Videos/Hanabi/pokewoods.gif
+exec swww init
+exec swww img ~/Videos/Hanabi/pokewoods.gif
+# exec --no-startup-id fcitx5 -d
 
 include /etc/sway/config.d/*
