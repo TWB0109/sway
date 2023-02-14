@@ -117,6 +117,13 @@ button:hover {
     color: @gruvboxDark-background;
 }
 
+#custom-mako {
+    margin: 5px;
+    padding: 0px 5px;
+    background-color:@gruvboxDark-yellow;
+    color: @gruvboxDark-background;
+}
+
 #idle_inhibitor.activated {
     margin: 5px;
     padding: 0px 5px;

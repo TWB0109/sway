@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-right": ["gamemode", "memory", "wireplumber", "custom/darkman", 
+    "modules-right": ["custom/mako", "gamemode", "memory", "wireplumber", "custom/darkman", 
         "sway/language", "idle_inhibitor", "clock", "tray"
     ],
     "modules-center": ["mpris"],
@@ -69,6 +69,14 @@
         "on-click": "darkman toggle;swaymsg reload",
         "format": "{}",
         "interval": 10,
+        "tooltip": false
+    },
+    "custom/mako": {
+        "exec": "~/.config/waybar/scripts/mako.sh",
+        "on-click": "~/.config/waybar/scripts/makoAction.sh",
+        "format": "{}",
+        "interval": 10,
+        "signal": 1,
         "tooltip": false
     },
     "idle_inhibitor": {
