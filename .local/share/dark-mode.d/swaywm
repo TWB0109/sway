@@ -17,5 +17,6 @@ sed -i 's/client\.unfocused \#f2e5bc \#f2e5bc \#79740e \#427b58/client\.unfocuse
 
 # Change wallpaper
 sed -i 's/succulent/sleepyplant/g' $swayconfig
+sed -i 's/pokewoods/trainstation/g' $swayconfig
 
 swaymsg reload
