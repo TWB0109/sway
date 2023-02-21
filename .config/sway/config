@@ -92,8 +92,8 @@ input type:keyboard {
     # Reload the configuration file
     bindsym $mod+q reload
 
-    # Toggle waybar
-    bindsym $mod+Shift+b exec killall -SIGUSR1 waybar
+    # Toggle waybar and nwg-wrapper
+    bindsym $mod+Shift+b exec killall -SIGUSR1 waybar; exec pkill -f -USR2 nwg-wrapper
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+q exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
@@ -316,5 +316,6 @@ exec swww img ~/Videos/Hanabi/trainstation.gif
 exec --no-startup-id fcitx -d
 exec easyeffects --gapplication-service
 exec /usr/libexec/xfce-polkit
+exec nwg-wrapper -s date.sh -r 60000 -p right -j center -a start -mt 20 -mr 20 -i
 
 include /etc/sway/config.d/*
